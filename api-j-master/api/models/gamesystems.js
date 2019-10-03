@@ -2,7 +2,7 @@
 
 module.exports = (sequelize, DataTypes) =>
 {
-  const Gamesystems = sequelize.define('Gamesystems',
+  const Gamesystems = sequelize.define('Gamesystem',
   {
     name: DataTypes.STRING,
     description: DataTypes.STRING
